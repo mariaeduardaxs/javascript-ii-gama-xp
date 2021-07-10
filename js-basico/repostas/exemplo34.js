@@ -3,6 +3,10 @@
 // - Se a media for maior e igual a cinco e menor que 7 - Recuperação
 // - Se a media for menor que 5 - Reprovado|
 
+//criar uma função que será a média
+//colocar os ifs para cada condição de média
+
+
 function calculaMedia(nota1,nota2,nota3) {
     let media = (nota1 + nota2 + nota3)/3
 

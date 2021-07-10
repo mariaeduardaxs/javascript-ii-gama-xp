@@ -19,6 +19,11 @@ const filmes = [
     },
 ]
 
-const [{id, titulo, descricao, duracao}]  = filmes
+const [{id, titulo, descricao, duracao}]  = filmes //desestruturando um array de objetos
 
-filmes.map(filme => console.log(filme.descricao))
+filmes.map(filme => console.log(filme.descricao)) //como iterar um array sem usar for
+
+//const filmes é um array de objetos que tem 3 objetos
+
+//parece um json - tipo de doc que o backend manda
+
